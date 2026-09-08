@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Backend/API_Gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend/Communication-Support_Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend/Config_Server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend/Eureka_Server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend/Identity_Access_Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend/Logistics_Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend/Marketplace_Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend/Monitoring-Reporting_Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend/Warehouse-Inventory_Service/src/main/java" charset="UTF-8" />
+  </component>
+</project>

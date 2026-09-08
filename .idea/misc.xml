@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Identity_Access_Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Marketplace_Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Logistics_Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Warehouse-Inventory_Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Communication-Support_Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Monitoring-Reporting_Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/Identity_Access_Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/Eureka_Server/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/Config_Server/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/Marketplace_Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/API_Gateway/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_25" default="true" project-jdk-name="openjdk-25" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

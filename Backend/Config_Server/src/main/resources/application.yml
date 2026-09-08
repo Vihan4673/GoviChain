@@ -1,0 +1,20 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: Config_Server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Vihan4673/Smart_Parking_Management_System.git
+          clone-on-start: true
+          default-label: main
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    register-with-eureka: true
+    fetch-registry: true
