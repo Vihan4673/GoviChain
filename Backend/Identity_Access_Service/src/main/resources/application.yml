@@ -5,10 +5,12 @@ spring:
   application:
     name: identity-access-service
 
-    datasource:
-      url: jdbc:mysql://localhost:3306/parking_db?createDatabaseIfNotExist=true
-      username: root
-      password: vihan@46
+  datasource:
+    url: jdbc:mysql://localhost:3306/parking_db?createDatabaseIfNotExist=true
+    username: root
+    password: vihan@46
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
   jpa:
     hibernate:
       ddl-auto: validate   # Flyway owns schema; Hibernate only validates
@@ -25,10 +27,6 @@ spring:
     locations: classpath:db/migration
     baseline-on-migrate: true
 
-  cloud:
-    discovery:
-      enabled: true
-
 eureka:
   client:
     service-url:
@@ -37,11 +35,11 @@ eureka:
     register-with-eureka: true
   instance:
     prefer-ip-address: true
+    instance-id: ${spring.application.name}:${random.value}
 
-agroform:
-  jwt:
-    secret: ${JWT_SECRET:change-this-to-a-long-random-secret-in-production-min-256-bits}
-    expiration-ms: ${JWT_EXPIRATION_MS:86400000}   # 24 hours
+jwt:
+  secret: ${JWT_SECRET:change-this-to-a-long-random-secret-in-production-min-256-bits}
+  expiration-ms: ${JWT_EXPIRATION_MS:86400000}   # 24 hours
 
 management:
   endpoints:
@@ -54,5 +52,6 @@ management:
 
 logging:
   level:
-    lk.agroform.identity: DEBUG
+    lk.ijse.identity: DEBUG
     org.springframework.security: INFO
+    org.springframework.cloud.netflix.eureka: INFO

@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Vihan4673/Smart_Parking_Management_System.git
+          uri: https://github.com/Vihan4673/GoviChain.git
           clone-on-start: true
           default-label: main
 

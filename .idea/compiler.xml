@@ -8,7 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Marketplace_Service" />
+        <module name="Order-Payment_Service" />
+        <module name="Communication-Support_Service" />
+        <module name="Monitoring-Reporting_Service" />
+        <module name="Warehouse-Inventory_Service" />
         <module name="Config_Server" />
+        <module name="Logistics_Service" />
         <module name="Api-Gateway" />
         <module name="Eureka_Server" />
       </profile>
@@ -24,10 +29,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-gateway" target="1.5" />
-      <module name="Communication-Support_Service" target="17" />
-      <module name="Logistics_Service" target="17" />
-      <module name="Monitoring-Reporting_Service" target="17" />
-      <module name="Warehouse-Inventory_Service" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -40,6 +41,7 @@
       <module name="Logistics_Service" options="-parameters" />
       <module name="Marketplace_Service" options="-parameters" />
       <module name="Monitoring-Reporting_Service" options="-parameters" />
+      <module name="Order-Payment_Service" options="-parameters" />
       <module name="Warehouse-Inventory_Service" options="-parameters" />
     </option>
   </component>
